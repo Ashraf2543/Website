@@ -3,35 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Extension</title>
+    <title>SiteSentry - Time Tracking Extension</title>
     <link rel="stylesheet" href="style.css">
-    <a href="" download>
-        Download Extension
-    </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="image.jpg">
 </head>
 <body>
     <header>
-        <h1>Welcome to SiteSentry</h1>
-        <p>Your go-to solution for enhancing your online time management</p>
+        <div class="header-content">
+            <h1>Welcome to SiteSentry</h1>
+            <p>Your go-to solution for enhancing your online time management</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </div>
     </header>
+
     <main>
-        <section>
+        <section id="features" class="features-section">
             <h2>Features of the Time Tracking Extension</h2>
-            <ul>
-                <li>Real-Time Tracking: Monitor the time spent on each website in real-time.</li>
-                <li>Detailed Analytics: View detailed statistics for each website visited.</li>
-                <li>Visual Dashboards: Interactive graphs and charts to visualize time spent on different sites.</li>
-            </ul>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Real-Time Tracking</h3>
+                    <p>Monitor the time spent on each website in real-time with precision.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Detailed Analytics</h3>
+                    <p>View detailed statistics and insights for each website you visit.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Visual Dashboards</h3>
+                    <p>Interactive graphs and charts to visualize your browsing habits.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bell"></i>
+                    <h3>Custom Alerts</h3>
+                    <p>Set alerts to notify you when you exceed your time limits on specific sites.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Privacy Protection</h3>
+                    <p>Your data is secure and never shared with third parties.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-sync"></i>
+                    <h3>Cross-Platform Sync</h3>
+                    <p>Sync your data across multiple devices seamlessly.</p>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Download</h2>
-            <p>Click the button below to download the extension:</p>
-            <a href="http://extesion-bucket.s3-website.ap-south-1.amazonaws.com/extesion-bucket.zip" class="download-button">Download Extension</a>
+
+        <section class="download-section">
+            <h2>Download SiteSentry</h2>
+            <p>Enhance your productivity today. Click the button below to download the extension:</p>
+            <div class="button-container">
+                <a href="https://github.com/Ashraf2543/SiteSentry1/raw/refs/heads/main/code.zip" class="download-button">Download Now</a>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h2>What Our Users Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"SiteSentry has completely transformed how I manage my time online. Highly recommended!"</p>
+                    <span>- Jane Doe</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The analytics are incredibly detailed and easy to understand. Great tool!"</p>
+                    <span>- John Smith</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I love the custom alerts feature. It keeps me on track throughout the day."</p>
+                    <span>- Sarah Johnson</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-card">
+                    <h3>Is SiteSentry free to use?</h3>
+                    <p>Yes, SiteSentry is completely free to download and use.</p>
+                </div>
+                <div class="faq-card">
+                    <h3>Can I use SiteSentry on multiple devices?</h3>
+                    <p>Absolutely! SiteSentry supports cross-platform syncing.</p>
+                </div>
+                <div class="faq-card">
+                    <h3>How does SiteSentry protect my privacy?</h3>
+                    <p>We prioritize your privacy. All data is stored locally and never shared.</p>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 SiteSetry a Website Extension. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 SiteSentry. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
