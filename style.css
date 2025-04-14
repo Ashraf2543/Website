@@ -111,22 +111,22 @@ h2 {
 /* Download section */
 .download-section {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-    padding: 60px 20px; /* Increased top/bottom padding */
+    padding: 60px 20px; 
     border-radius: 8px;
     margin-bottom: 40px;
     text-align: center;
 }
 
 .download-section h2 {
-    margin-bottom: 30px; /* Increased space below heading */
+    margin-bottom: 30px; 
 }
 
 .download-section p {
-    margin-bottom: 30px; /* Increased space below paragraph */
+    margin-bottom: 30px;
 }
 
 .button-container {
-    margin-top: 20px; /* Additional space above button */
+    margin-top: 20px;
 }
 
 .download-button {
